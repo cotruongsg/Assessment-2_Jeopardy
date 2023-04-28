@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jeopardy</title>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Copse&display=swap"
+        rel="stylesheet"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-hTpzPdJW7jKzv15xZDE5TZ9XmRoKj5k5v5mLR0ozwRXU6y4UWy4Cv6QdL/+Z9YFZSryb91og0JNZO7y3f1T3+A==" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="jeopardy.css">
+</head>
+<body>
+
+  <div id="spin-container">
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden" style="color: blue !important;">Loading Game...</span>
+    </div>
+  </div>
+  <br>
+
+  <button id="restart">Restart Game</button>
+  
+  <table id="jeopardy">
+    <thead></thead>
+    <tbody></tbody>
+  </table>
+
+  
+  <script src="https://unpkg.com/jquery"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="https://unpkg.com/lodash"></script>
+  <script src="jeopardy.js"></script>
+
+</body>
+</html>
